@@ -1,6 +1,7 @@
 # IDEO COLAB Chat Bot Instance
 Thanks to all the folks who set this up! All credit to the original authors.
 
+
 # Stanley-Bot
 Stanley is a custom SMS messaging platform to prototype early services, products, and content.
 For more about this, read the article
