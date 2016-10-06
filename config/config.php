@@ -30,10 +30,10 @@ $slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_
 
 
 // Database Stuff
-$dbHost = "THE DATABASE HOST ADDRESS";
-$dbName = "THE DATABASE NAME";
-$dbUserName = "THE DATABASE USERNAME";
-$dbPassword = "THE DATABASE PASSWORD";
+$dbHost = "us-cdbr-iron-east-04.cleardb.net";
+$dbName = "heroku_18661a199e4a1dd";
+$dbUserName = "bd245b7f10ad77";
+$dbPassword = "3a4742d8";
 $dbTable = "THE NAME OF THE DATABASE TABLE";
 
 $dbConnection = mysqli_connect($dbHost, $dbUserName, $dbPassword,$dbName);
@@ -41,8 +41,8 @@ mysqli_error($dbConnection);
 
 
 // Responses setup (when you need an automated response to users - i.e. when the team is away or the session is over)
-$automatedResponseOver="n"; // options: y | n 
-$automatedResponseTeamSleeping ="n"; // options: y | n 
+$automatedResponseOver="n"; // options: y | n
+$automatedResponseTeamSleeping ="n"; // options: y | n
 $automatedResponseTimeStart = "Today 9pm";
 $automatedResponseTimeEnd = "Tomorrow 10am";
 
