@@ -1,6 +1,9 @@
+# IDEO COLAB Chat Bot Instance
+Thanks to all the folks who set this up! All credit to the original authors.
+
 # Stanley-Bot
 Stanley is a custom SMS messaging platform to prototype early services, products, and content.
-For more about this, read the article 
+For more about this, read the article
 [Chatbots: Your Ultimate Prototyping Tool](https://medium.com/@ideo/chatbots-ultimate-prototyping-tool-e4e2831967f3)
 
 ![bots](https://cdn-images-1.medium.com/max/2000/1*B95neDsqeB7pJ9XXGhsRNg.jpeg)
@@ -26,8 +29,8 @@ In the Heroku dashboard under “Resources”, install the add-on ClearDB. To ma
 In the Heroku Dashboard under “Deploy”, link you Github repository to your Heroku app. Set it up as “automatic deploys” - so any time you commit new code to Github you are automatically live with the changes.
 
 ##Step 6
-Commit your code to git, and make sure it's available in your heroku instance. 
-In the Heroku Dashboard under “Resources”, click on ClearDB and retrieve the information regarding your database: host, user name, password, database name. Use these credentials in your Sequel Pro. Once you are connected install your database launching this script http://YOUR_ HEROKU_INSTANCE/config/installDB.php. Once the database is installed, you can delete installDB.php from your repo. 
+Commit your code to git, and make sure it's available in your heroku instance.
+In the Heroku Dashboard under “Resources”, click on ClearDB and retrieve the information regarding your database: host, user name, password, database name. Use these credentials in your Sequel Pro. Once you are connected install your database launching this script http://YOUR_ HEROKU_INSTANCE/config/installDB.php. Once the database is installed, you can delete installDB.php from your repo.
 
 ##Step 7
 Now, create a private slack channel for you and your team. Invite to the channel everyone that should be involved in the conversations. When the private slack channel is ready, set up an [incoming webhook](https://api.slack.com/incoming-webhooks).
