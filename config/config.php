@@ -7,18 +7,18 @@
 
 
 // set local timezone
-date_default_timezone_set('America/New_York');
+date_default_timezone_set('America/San_Francisco');
 
 // General
-$projectName="STANLEY";
-$projectEmail="stanley@ideo.com";
-$projectPhoneNumber="YOUR PHONE NUMBER";
+$projectName="ORACLE";
+$projectEmail="alukasik@ideocolab.com";
+$projectPhoneNumber="+17202516853";
 
 
 // Twilio API credentials
-$accountSid = "YOUR ACCOUNT SID";
-$authToken = "YOUR ACCOUNT TOKEN"; //
-$twilioPhoneNumber = "YOUR TWILIO PHONE NUMBER";
+$accountSid = "AC9de15e153604d68c925a87ba63e179df";
+$authToken = "80365d27f8d84f6f769eb8dfcde1e20"; //
+$twilioPhoneNumber = "+17209612494";
 $siteURL="YOUR SITE URL";
 
 
