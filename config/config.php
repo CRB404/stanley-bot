@@ -25,10 +25,10 @@ $siteURL="YOUR SITE URL";
 
 
 // Slack Webhook integration
-$slackWebHookURL="YOUR SLACK PRIVATE CHANNEL WEB HOOK";
-$slackRoom = "THE NAME OF YOUR SLACK ROOM";
-$slackBotName = "Stanley"; //THE NAME OF YOUR BOT
-$slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_mouth_face: or :shit:
+$slackWebHookURL="https://hooks.slack.com/services/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";
+$slackRoom = "bot_channel";
+$slackBotName = "ORACLE"; //THE NAME OF YOUR BOT
+$slackBotIcon = ":shit:"; // THE PROFILE IMAGE OF YOUR BOT example :money_mouth_face: or :shit:
 
 
 // Database Stuff
